@@ -1,0 +1,11 @@
+/*
+Theme Name: Gridly Personal Portfolio WordPress
+Description: Gridly is the modern vCard and Portfolio WordPress theme for personal use based on simple one-page template with tabbed navigation. This theme is fully responsive and good-looking on any device.
+Version: 2.0.1.5
+Author:  neuethemes
+*/
+
+
+#home p {
+line-height: 58px;
+}

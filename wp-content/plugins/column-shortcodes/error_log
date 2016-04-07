@@ -1,0 +1,1 @@
+[30-Jun-2015 06:05:06 UTC] PHP Fatal error:  Call to undefined function plugins_url() in /home/marcialsoto/public_html/wp-content/plugins/column-shortcodes/column-shortcodes.php on line 31

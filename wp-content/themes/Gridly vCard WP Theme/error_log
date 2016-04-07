@@ -1,0 +1,12 @@
+[13-Feb-2015 16:05:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/marcial3/public_html/marcialsoto/wp-content/themes/Gridly vCard WP Theme/index.php on line 1
+[09-Jun-2015 11:14:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/index.php on line 1
+[20-Jul-2015 00:50:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/404.php on line 1
+[19-Sep-2015 20:20:25 UTC] PHP Fatal error:  Class 'Walker_Comment' not found in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/comments.php on line 3
+[29-Feb-2016 23:32:30 UTC] PHP Fatal error:  Call to undefined function of_get_option() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/header.php on line 3
+[29-Feb-2016 23:32:31 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/functions.php on line 2
+[29-Feb-2016 23:32:31 UTC] PHP Fatal error:  Call to undefined function of_get_option() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/footer.php on line 7
+[29-Feb-2016 23:32:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/404.php on line 1
+[29-Feb-2016 23:32:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/404.php on line 1
+[13-Mar-2016 06:54:54 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/functions.php on line 2
+[13-Mar-2016 06:54:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/404.php on line 1
+[13-Mar-2016 06:54:54 UTC] PHP Fatal error:  Call to undefined function of_get_option() in /home/marcialsoto/public_html/wp-content/themes/Gridly vCard WP Theme/footer.php on line 7

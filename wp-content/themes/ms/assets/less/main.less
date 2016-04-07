@@ -1,0 +1,305 @@
+// Custom Fonts
+@font-face {
+    font-family: 'DosisB';
+    src: url('../fonts/dosis-bold-webfont.eot');
+    src: url('../fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-bold-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-bold-webfont.woff') format('woff'),
+         url('../fonts/dosis-bold-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-bold-webfont.svg#dosisbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/dosis-regular-webfont.eot');
+    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-regular-webfont.woff') format('woff'),
+         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DosisEL';
+    src: url('../fonts/dosis-extralight-webfont.eot');
+    src: url('../fonts/dosis-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-extralight-webfont.woff') format('woff'),
+         url('../fonts/dosis-extralight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DosisSB';
+    src: url('../fonts/dosis-semibold-webfont.eot');
+    src: url('../fonts/dosis-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-semibold-webfont.woff') format('woff'),
+         url('../fonts/dosis-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BitterB';
+    src: url('../fonts/bitter-bold-webfont.eot');
+    src: url('../fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bitter-bold-webfont.woff') format('woff'),
+         url('../fonts/bitter-bold-webfont.ttf') format('truetype'),
+         url('../fonts/bitter-bold-webfont.svg#bitterbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter-regular-webfont.eot');
+    src: url('../fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bitter-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bitter-regular-webfont.woff') format('woff'),
+         url('../fonts/bitter-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bitter-regular-webfont.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Bootstrap
+@import "_bootstrap";    
+
+// Post styling 
+@import "third-party/font-awesome-4.2.0/font-awesome"; 
+
+// Roots
+@import "_global";                   // Base styling & custom mixins
+@import "components/_buttons";       // Button tweaks
+@import "components/_forms";         // Form tweaks
+@import "components/_media";         // WordPress media
+@import "components/_wp-classes";    // WordPress generated classes
+@import "layouts/_general";          // General styling
+@import "layouts/_header";           // Header styling
+@import "layouts/_sidebar";          // Sidebar styling 
+@import "layouts/_footer";           // Footer styling
+@import "layouts/_pages";            // Page styling
+@import "layouts/pages/_home";       // Home page styling
+@import "layouts/_posts";            // Post styling
+@import "third-party/ext/_home";     // Post styling 
+
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-size: 16px;
+	font-family: Bitter,georgia,serif;
+	line-height: 1.5;
+	position: relative;
+}
+
+ul, ol {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 1em;
+}
+
+.list-links{
+	margin-top: 30px;
+}
+ 
+.container{
+	width: 100%;
+}
+
+
+
+.banner{
+	&.navbar-default{
+		background-color: transparent; 
+		border-color: transparent;
+		margin-top: 0px; 
+
+		.container{
+			.navbar-header{
+				a{
+					&.logo{
+					  display: block;
+					  width: 104px;
+					  height: 74px;
+					  background: url('../img/ms-logo.png') no-repeat 0 0;
+					    -webkit-transition: background 0.2s ease-in-out;
+					    -moz-transition: background 0.2s ease-in-out;
+					    transition: background 0.2s ease-in-out;
+
+					  &:hover{
+					  	/*background-position: -104px 0;*/
+					  }
+
+					  	span
+						{
+						  position: absolute;
+						  top: -999em;
+						}
+					}
+				}
+
+				.navbar-toggle{
+					padding: 16px 16px;
+					border-color: transparent;
+					.icon-bar {
+						width: 25px;
+						height: 5px;
+					}
+				}
+
+				.navbar-brand{
+				padding: 0;
+				}
+			}
+
+		}
+	}
+}
+
+/* Util */
+#navbar-collapse{
+	&.modal{
+		.modal-dialog{
+			.modal-content{
+				.border-radius(0px);
+				.modal-header{
+					.close{
+						font-size: 34px;
+					}
+				}
+				.modal-body{
+					padding: 0;
+					.navbar-collapse{
+						padding-right: 0;
+						padding-left: 0;
+						ul{
+							&#menu-primary-navigation{
+								position: relative;
+								width: 100%;
+
+								li{
+								float: left;
+								width: 50%;
+								text-align: center;
+								&:nth-child(odd) {
+									a{
+										border-right: 1px solid rgba(0,0,0,0.1);
+									}
+								}
+									a{	
+										font-family: "DosisB","HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
+										text-transform: uppercase;
+										letter-spacing: .1em;
+										padding: .5em 1.5em;
+										font-size: 1em;
+										display: block;
+										border-bottom: 1px solid rgba(0,0,0,0.1);
+										padding: 20%;
+										-webkit-transition: background .2s ease-in-out;
+										-moz-transition: background .2s ease-in-out;
+										-o-transition: background .2s ease-in-out;
+										transition: background .2s ease-in-out;
+
+										span{
+											width: 100%;
+											display: inline-block;
+											font-size: 2.5em;
+											margin: 0 0 20px;
+											text-align: center;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.modal-footer{
+
+				}
+			}
+		}
+	}	
+}
+
+.page{
+	.page-header{
+		h1{
+			font-size: 2em;
+			small{
+				font-family: "Dosis","HelveticaNeue-CondensedBold","trebuchet ms",sans-serif;
+				display: block;
+				font-size: inherit;
+
+			}
+		}
+
+		hr{
+			margin: 2em 0;
+		}
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	body, .modal-dialog{
+		width: 240px;
+	}
+
+	.navbar-header{
+		float: none;
+		.navbar-toggle{
+			display: block; 
+		}
+	}
+	.collapse {
+		display: block;
+	}
+
+	.modal-dialog {
+	margin: 0px auto 30px;
+	}
+
+	.container {
+		padding: 2em 2em 0;
+		overflow: hidden;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	body, .modal-dialog{
+		width: 732px;
+	}
+	.container {
+		padding: 2em 2em 0;
+		overflow: hidden;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  
+	body, .modal-dialog{
+		width: 732px;
+	}
+
+	.container {
+		padding: 2em 2em 0;
+		overflow: hidden;
+	}
+} 
+
+@media only screen and (min-width: 46em){
+	body {
+		font-size: 24px;
+	}
+}

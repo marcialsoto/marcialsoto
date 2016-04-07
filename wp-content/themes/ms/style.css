@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Marcial Soto
+ Theme URI:    http://www.marcialsoto.com
+ Description:  Theme de Marcial Soto de Roots Child Theme
+ Author:       Marcial Soto
+ Author URI:   http://www.marcialsoto.com
+ Template:     roots
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  roots-child
+*/
+
+@import url("../roots/style.css");
+
+/* =Aquí empieza la personalización de tu tema
+-------------------------------------------------------------- */
